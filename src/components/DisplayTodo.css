@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 400px;
+  height: 60px;
+  color: white;
+  opacity: 0.5;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: all 0.2s linear;
+}
+
+.todo:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.todo .actions button {
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  color: white;
+  opacity: 0.5;
+  background: rgba(255, 255, 255, 0.17);
+}
+
+.todo .actions button:hover {
+  cursor: pointer;
+  opacity: 1;
+  background-color: rgb(240, 45, 45);
+}
+.notice {
+  color: white;
+}

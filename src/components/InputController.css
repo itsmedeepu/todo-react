@@ -1,0 +1,45 @@
+.input-h {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin-top: 15px;
+}
+.input-h input {
+  width: 500px;
+  height: 50px;
+  border: 0;
+  outline: none;
+  background: rgba(255, 255, 255, 0.17);
+  backdrop-filter: blur(50px);
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px white;
+}
+
+.input-h input:focus {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.input-h button:hover {
+  cursor: pointer;
+  background-color: rgb(33, 235, 33);
+}
+.input-h button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.17);
+  color: white;
+  outline: none;
+  border: 0;
+  margin: 0px 0px 0px 10px;
+}
+
+.header {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
